@@ -1,0 +1,29 @@
+html{
+    background-color: #eee;
+}
+#container{
+    margin-top: 300px;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    font-family: 'Lora', serif;
+}
+
+#container_text{
+    text-align: center;
+    cursor: pointer;
+}
+
+#container_text p{
+    padding-bottom: 20px;
+}
+
+#container_line{
+    cursor: pointer;
+    text-align: center;
+    /* padding-left: 30px; */
+
+}
+
+#container_line p{
+    padding-bottom: 20px;
+}
